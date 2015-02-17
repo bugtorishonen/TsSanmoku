@@ -25,6 +25,8 @@
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="AIFactory.ts" />
+    <TypeScriptCompile Include="AIRandom.ts" />
     <TypeScriptCompile Include="app.ts" />
     <TypeScriptCompile Include="jquery.d.ts" />
     <TypeScriptCompile Include="SanmokuSim.ts" />

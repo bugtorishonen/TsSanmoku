@@ -9,6 +9,13 @@ export class SanmokuSim {
         this.turn = 0;
     }
 
+    public DeepCopy(): SanmokuSim {
+        var ssim = new SanmokuSim();
+        ssim.stones = this.stones.concat();
+        ssim.turn = this.turn;
+        return ssim;
+    }
+
     public PutStone(pos: number, stone?: number) {
         var stonenotspecified = stone == null;
         if (stonenotspecified) {

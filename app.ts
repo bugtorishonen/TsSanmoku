@@ -1,13 +1,30 @@
 ﻿/// <reference path="jquery.d.ts" />
 
 import SanmokuSim = require("SanmokuSim");
+import AIFactory = require("AIFactory");
+
 var ssim: SanmokuSim.SanmokuSim;
 $(function () {
     ssim = new SanmokuSim.SanmokuSim();
 
+    //盤面クリックにより石を置くイベント
     for (var i = 0; i < 9; i++) {
         (function (ii) {
             $("#board" + ii).click(function () { PutStone(ii); });
+        })(i);
+    }
+
+    //AIにより石を置くボタン
+    var ai_name_list = AIFactory.AIFactory.GetList();
+    for (var i = 0; i < ai_name_list.length; i++) {
+        (function (ii) {
+            var btn = $("<button type=\"button\" />").click(function () {
+                var ai = AIFactory.AIFactory.Create(ai_name_list[ii], ssim);
+                var aipos = ai.GetPos();
+                ssim.PutStone(aipos);
+                RenderBoard();
+            }).text(ai_name_list[ii]);
+            $("#ailist").append(btn);
         })(i);
     }
 
