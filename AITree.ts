@@ -1,4 +1,8 @@
-﻿/// <reference path="SanmokuSim.ts" />
+﻿/*
+    Copyright (c) 2015 Bugtori Shonen
+    This software is released under the MIT License, see LICENSE.
+*/
+/// <reference path="SanmokuSim.ts" />
 
 import SanmokuSim = require("SanmokuSim");
 import AIFactory = require("AIFactory");

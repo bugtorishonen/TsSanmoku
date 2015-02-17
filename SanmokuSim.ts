@@ -1,4 +1,8 @@
-﻿/// <reference path="jquery.d.ts" />
+﻿/*
+    Copyright (c) 2015 Bugtori Shonen
+    This software is released under the MIT License, see LICENSE.
+*/
+/// <reference path="jquery.d.ts" />
 
 export class SanmokuSim {
     public stones: number[];//各マスの石の状態。-1=なし、0=○、1=×、順序は左上、中上、右上、左中、…

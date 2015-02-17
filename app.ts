@@ -1,4 +1,9 @@
-﻿/// <reference path="jquery.d.ts" />
+﻿/*
+    Copyright (c) 2015 Bugtori Shonen
+    This software is released under the MIT License, see LICENSE.
+*/
+
+/// <reference path="jquery.d.ts" />
 
 import SanmokuSim = require("SanmokuSim");
 import AIFactory = require("AIFactory");

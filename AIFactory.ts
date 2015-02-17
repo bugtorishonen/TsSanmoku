@@ -1,4 +1,8 @@
-﻿
+﻿/*
+    Copyright (c) 2015 Bugtori Shonen
+    This software is released under the MIT License, see LICENSE.
+*/
+
 import SanmokuSim = require("SanmokuSim");
 import AIRandom = require("AIRandom");
 import AITree = require("AITree");
