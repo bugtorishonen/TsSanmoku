@@ -27,6 +27,7 @@
   <ItemGroup>
     <TypeScriptCompile Include="AIFactory.ts" />
     <TypeScriptCompile Include="AIRandom.ts" />
+    <TypeScriptCompile Include="AITree.ts" />
     <TypeScriptCompile Include="app.ts" />
     <TypeScriptCompile Include="jquery.d.ts" />
     <TypeScriptCompile Include="SanmokuSim.ts" />

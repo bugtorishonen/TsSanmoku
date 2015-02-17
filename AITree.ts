@@ -24,7 +24,7 @@ export class AITree implements AIFactory.IAI {
         }
 
         //可能な着手について、葉の値を再帰的に求める。
-        var rec_leaf_values = Array();
+        var rec_leaf_values: { val: number; pos: number }[] = Array();
         for (var i = 0; i < root_ssim.stones.length; i++) {
             if (root_ssim.stones[i] == -1) {
                 //着手可能
@@ -45,7 +45,7 @@ export class AITree implements AIFactory.IAI {
                     best_choice = rec_leaf_values[i];
                 }
             } else {
-                if (best_choice.val >rec_leaf_values[i].val) {
+                if (best_choice.val > rec_leaf_values[i].val) {
                     best_choice = rec_leaf_values[i];
                 }
             }

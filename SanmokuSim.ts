@@ -5,7 +5,7 @@ export class SanmokuSim {
     public turn: number;//どちらの手番か。0=○(先攻)、1=×(後攻)。
 
     constructor() {
-        this.stones = [-1,-1,-1,-1,-1,-1,-1,-1,-1];
+        this.stones = [-1, -1, -1, -1, -1, -1, -1, -1, -1];
         this.turn = 0;
     }
 
@@ -28,7 +28,7 @@ export class SanmokuSim {
         }
     }
 
-    public CanPutStone(pos: number):boolean {
+    public CanPutStone(pos: number): boolean {
         return this.stones[pos] == -1;
     }
 

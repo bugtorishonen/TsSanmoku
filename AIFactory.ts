@@ -13,8 +13,8 @@ export class AIFactory {
         }
     }
 
-    public static GetList(): string[]{
-        return ["AIRandom","AITree"];
+    public static GetList(): string[] {
+        return ["AIRandom", "AITree"];
     }
 }
 
