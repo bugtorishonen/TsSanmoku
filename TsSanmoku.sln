@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TsSanmoku", "TsSanmoku.csproj", "{91EBF892-467B-4ECD-9B8B-818E7373C601}"
 EndProject
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "TsSanmokuNode", "TsSanmokuNode\TsSanmokuNode.njsproj", "{9A47CA51-F6E7-4451-A198-19787E50ECF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{91EBF892-467B-4ECD-9B8B-818E7373C601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91EBF892-467B-4ECD-9B8B-818E7373C601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91EBF892-467B-4ECD-9B8B-818E7373C601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A47CA51-F6E7-4451-A198-19787E50ECF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A47CA51-F6E7-4451-A198-19787E50ECF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A47CA51-F6E7-4451-A198-19787E50ECF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A47CA51-F6E7-4451-A198-19787E50ECF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

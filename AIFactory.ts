@@ -3,9 +3,9 @@
     This software is released under the MIT License, see LICENSE.
 */
 
-import SanmokuSim = require("SanmokuSim");
-import AIRandom = require("AIRandom");
-import AITree = require("AITree");
+import SanmokuSim = require("./SanmokuSim");
+import AIRandom = require("./AIRandom");
+import AITree = require("./AITree");
 
 export class AIFactory {
     public static Create(ai_name: string, ssim: SanmokuSim.SanmokuSim): IAI {

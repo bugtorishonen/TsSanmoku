@@ -1,0 +1,10 @@
+{
+  "name": "TsSanmokuNode",
+  "version": "0.0.0",
+  "description": "TsSanmokuNode",
+  "main": "app.js",
+  "author": {
+    "name": "toragi",
+    "email": ""
+  }
+}
